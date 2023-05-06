@@ -64,7 +64,7 @@ void fft(complex<float> *in, complex<float> *out, size_t n)
         //  Distancia entre grupos (dg): dg = n / (2^(r-1))
 
         uint16_t dd = n / (1 << r);
-        uint16_t dg = n / (1 << (r-1));
+        uint16_t dg = n / (1 << (r - 1));
 
         for (uint16_t g = 1; g < gr + 1; g++)
         {
@@ -92,14 +92,14 @@ void fft(complex<float> *in, complex<float> *out, size_t n)
                 // el buffer in.
                 if (r == 1 && in != out)
                 {
-                    R = W[bitReverse(2 * (g - 1), gamma - 1)] *
+                    R = W[bitReverse(2 * (g - 1), gamma)] *
                         in[m + dd + dg * (g - 1) - 1];
 
                     aux = in[m + dg * (g - 1) - 1];
                 }
                 else
                 {
-                    R = W[bitReverse(2 * (g - 1), gamma - 1)] *
+                    R = W[bitReverse(2 * (g - 1), gamma)] *
                         out[m + dd + dg * (g - 1) - 1];
 
                     aux = out[m + dg * (g - 1) - 1];
