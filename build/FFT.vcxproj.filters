@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Bruno\ITBA\6to cuatri\Análisis de Señales y Sistemas Digitales\TPS\TP2\FFT\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Bruno\ITBA\6to cuatri\Análisis de Señales y Sistemas Digitales\TPS\TP2\FFT\fft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Bruno\ITBA\6to cuatri\Análisis de Señales y Sistemas Digitales\TPS\TP2\FFT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{189A13F9-9C72-387D-A67A-6494E691DBF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

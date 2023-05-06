@@ -1,0 +1,10 @@
+^C:\BRUNO\ITBA\6TO CUATRI\ANÁLISIS DE SEÑALES Y SISTEMAS DIGITALES\TPS\TP2\FFT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Bruno/ITBA/6to cuatri/Análisis de Señales y Sistemas Digitales/TPS/TP2/FFT" "-BC:/Bruno/ITBA/6to cuatri/Análisis de Señales y Sistemas Digitales/TPS/TP2/FFT/build" --check-stamp-file "C:/Bruno/ITBA/6to cuatri/Análisis de Señales y Sistemas Digitales/TPS/TP2/FFT/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

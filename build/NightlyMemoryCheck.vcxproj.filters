@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Bruno\ITBA\6to cuatri\Análisis de Señales y Sistemas Digitales\TPS\TP2\FFT\build\CMakeFiles\7d4f5aaa573c9d8fc1b1ec0071931b37\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Bruno\ITBA\6to cuatri\Análisis de Señales y Sistemas Digitales\TPS\TP2\FFT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Bruno\ITBA\6to cuatri\Análisis de Señales y Sistemas Digitales\TPS\TP2\FFT\build\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E0FC78BA-7789-39B7-A8E9-007F133C9B7F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
